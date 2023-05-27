@@ -436,7 +436,7 @@ KBUILD_CFLAGS    += -DCONFIG_EARLY_SERVICES
 endif
 
 # Avoid gcc-10 regression
-KBUILD_CFLAGS	+= --param=max-inline-insns-auto=1000
+# KBUILD_CFLAGS	+= --param=max-inline-insns-auto=1000
 
 # Optimization for sm8150
 KBUILD_CFLAGS	+= -Werror=vla
